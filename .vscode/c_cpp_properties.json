@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "windowsSdkVersion": "10.0.18362.0",
+      "name": "Win32",
+      "includePath": ["C:\\MinGW", "C:\\MinGW\\include"],
+      "compilerPath": "C:\\MinGW\\bin\\gcc.exe"
+    }
+  ],
+  "version": 4
+}
