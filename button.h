@@ -23,11 +23,21 @@ private:
         }
         
         void printInButton() {
-            utlity u;
+            utlity utilityInstance;
+            // int textWidth = text.length();
+            // int font = 18;
             int textWidth = text.length();
-            int font = 24;
+            int textHeight = 18;
+            int textPosX = cX - textWidth / 2;
+            int textPosY = cY - 1;
+            if (textWidth > width / 4) {
+                textPosX = cX - width / 2 +1;
+            }
+            
             glColor3f(textColor.getR(), textColor.getG(), textColor.getB());
-            u.printText(text, cX - (textWidth/2), cY, font);
+
+            
+            utilityInstance.printText(text, textPosX, textPosY, textHeight);
         }
         
         void draw() {

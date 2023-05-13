@@ -12,7 +12,9 @@ class utlity {
                     glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, i);
                 else if (font == 10)
                     glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_10, i);
-                    
+                else if (font == 18)
+                    glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, i);
+
             }
         }
 };
