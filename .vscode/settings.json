@@ -9,5 +9,8 @@
   "files.exclude": {
     "mingw*": true,
     "Program.exe": true
+  },
+  "files.associations": {
+    "iostream": "cpp"
   }
 }
