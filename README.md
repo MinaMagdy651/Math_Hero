@@ -49,14 +49,14 @@ mingw32-g++.exe -Wall -g -IC:MinGWinclude main.cpp -o Program.exe -L C:MinGWlib 
 ## How to Play
 
 1. On the opening screen, you will be presented with three options:
-   <img src="screenShots/menu.png" alt="Main Menu" width="700" height="700">
+   <img src="https://github.com/amwopps/Math_Hero/blob/main/ScreenShots/menu.png" alt="Main Menu" width="700" height="700">
 
 - **Play:** Start the game and test your math skills.
 - **Highscores:** View the leaderboard and see the top Math Heroes.
 - **Quit:** Exit the game.
 
 2. If you choose to play, you will be shown a randomly generated arithmetic equations on cards.
-   <img src="screenShots/inGame.png" alt="In Game" width="700" height="700">
+   <img src="https://github.com/amwopps/Math_Hero/blob/main/screenShots/inGame.png" alt="In Game" width="700" height="700">
 
 3. Solve the equation as quickly as possible by entering the correct answer.
 
@@ -65,10 +65,10 @@ mingw32-g++.exe -Wall -g -IC:MinGWinclude main.cpp -o Program.exe -L C:MinGWlib 
 5. Keep solving equations and accumulating points until the timer runs out or the card runs out of the frame.
 
 6. Your final score will be displayed at the end of the game.
-   <img src="screenShots/endGame.png" alt="End Game" width="700" height="700">
+   <img src="https://github.com/amwopps/Math_Hero/blob/main/screenShots/endGame.png" alt="End Game" width="700" height="700">
 
 7. If you achieve a high score, you enter the leaderboard.
-   <img src="screenShots/highScores.png" alt="High Scores" width="700" height="700">
+   <img src="https://github.com/amwopps/Math_Hero/blob/main/screenShots/highScores.png" alt="High Scores" width="700" height="700">
 
 ## Contributing
 
