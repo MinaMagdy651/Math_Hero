@@ -55,6 +55,8 @@ public:
         textPrint::printText("Your Score is: " + to_string(score), 40, 60, 24);
         int position = highScoreHandlerInstance.addScore(score);
         textPrint::printText("Your rank is: " + to_string(position), 40, 40, 24);
+        textPrint::printText("Press F1 to restart, F2 to main menu", 25, 30, 24);
+
     }
 
     static void game(bool& changeBgColor, int numberOfCards, float translateY[], queue<int>& answers, string& answerString, int& answer, int& score, bool translated[], bool drawCards[], bool& timerActive, int& status, int& counterTimer, cards equations[]) {
